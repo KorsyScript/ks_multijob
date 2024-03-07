@@ -21,6 +21,7 @@ This script allows you to have several jobs for one character without affecting 
 
 ## Installation Steps
 
+- Download release version 
 - Add `ks_multijob` to your resource file
 - Add ensure `ks_multijob` to your resources.cfg
 - Run `data.sql` sql file
