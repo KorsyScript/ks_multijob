@@ -2,16 +2,16 @@ Locales = {}
 
 function _(str, ...) -- Translate string
 
-	if Locales[Config.defaultlang] ~= nil then
+	if Locales[Config.defaultLang] ~= nil then
 
-		if Locales[Config.defaultlang][str] ~= nil then
-			return string.format(Locales[Config.defaultlang][str], ...)
+		if Locales[Config.defaultLang][str] ~= nil then
+			return string.format(Locales[Config.defaultLang][str], ...)
 		else
-			return 'Translation [' .. Config.defaultlang .. '][' .. str .. '] does not exist'
+			return 'Translation [' .. Config.defaultLang .. '][' .. str .. '] does not exist'
 		end
 
 	else
-		return 'Locale [' .. Config.defaultlang .. '] does not exist'
+		return 'Locale [' .. Config.defaultLang .. '] does not exist'
 	end
 
 end

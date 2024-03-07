@@ -200,6 +200,8 @@ end)
 
 
 ------------------------------------
-RegisterCommand("myJobs", function(source, args, rawCommand)
+RegisterCommand(_U('MyJobs_Command'), function(source, args, rawCommand)
     OpenMyJobsMenu()
 end, false)
+
+TriggerEvent("chat:addSuggestion", "/".._U('MyJobs_Command'), _U("MyJobs_Suggest"))

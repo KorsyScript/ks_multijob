@@ -7,7 +7,9 @@ Locales = {
         Notif_JobAdded = 'Jobs added.',
         Notif_Selectedjob = 'Selected job.',
         Notif_JobRemoved = 'Job removed.',
-        Notif_MaxJobs = 'You have already reached the maximum number of jobs.'
+        Notif_MaxJobs = 'You have already reached the maximum number of jobs.',
+        MyJobs_Command = 'myJobs',
+        MyJobs_Suggest = 'Access the job management menu.'
     },
     ['fr'] = {
         Name = 'Panneau d\'Affichage',
@@ -17,6 +19,8 @@ Locales = {
         Notif_JobAdded = 'Emploi ajouté.',
         Notif_Selectedjob = 'Emploi sélectionné.',
         Notif_JobRemoved = 'Emploi supprimé.',
-        Notif_MaxJobs = 'Vous avez déjà atteint le nombre maximum d\'emploi.'
+        Notif_MaxJobs = 'Vous avez déjà atteint le nombre maximum d\'emploi.',
+        MyJobs_Command = 'mesEmplois',
+        MyJobs_Suggest = 'Accéder au menu de gestion des emplois.'
     }
 }
