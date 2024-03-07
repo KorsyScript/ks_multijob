@@ -26,7 +26,3 @@ This script allows you to have several jobs for one character without affecting 
 - Add ensure `ks_multijob` to your resources.cfg
 - Run `data.sql` sql file
 - Configure `config.lua` file
-
-## Documentation
-
-https://korsy-script.gitbook.io/korsy/overview/multi-job
