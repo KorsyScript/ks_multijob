@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'chinese_rocks';
+  src: url(./chinese_rocks.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'rdrlino';
+  src: url(./rdrlino-regular.woff) format('woff2');
+}
+
